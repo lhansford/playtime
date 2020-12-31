@@ -1,9 +1,9 @@
 {
   "name": "playtime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Luke Hansford @lhansford",
   "bin": {
-    "gt": "./bin/run"
+    "playtime": "./bin/run"
   },
   "bugs": "https://github.com/lhansford/playtime/issues",
   "dependencies": {

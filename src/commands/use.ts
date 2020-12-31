@@ -7,7 +7,7 @@ import { readDataFile, updateAvailableMinutes } from '../helpers/io';
 export default class Use extends Command {
   static description = 'Use play time';
 
-  static examples = [`$ gt use`];
+  static examples = [`$ playtime use`];
 
   async run(): Promise<void> {
     const answer = await inquirer.prompt([
