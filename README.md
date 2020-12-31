@@ -47,8 +47,7 @@ $ playtime add
 > 5 minutes added. 25 minutes of play time now available.
 ```
 
-TODO: link is wrong
-_See code: [src/commands/add.ts](https://github.com/lhansford/playtime/blob/v0.0.1/src/commands/add.ts)_
+_See code: [src/commands/add.ts](https://github.com/lhansford/playtime/blob/main/src/commands/add.ts)_
 
 ### `playtime use`
 
@@ -60,8 +59,7 @@ $ playtime use
 > 5 minutes used. 20 minutes remaining.
 ```
 
-TODO: link is wrong
-_See code: [src/commands/add.ts](https://github.com/lhansford/playtime/blob/v0.0.1/src/commands/add.ts)_
+_See code: [src/commands/add.ts](https://github.com/lhansford/playtime/blob/main/src/commands/add.ts)_
 
 ### `playtime ls`
 
@@ -72,8 +70,7 @@ $ playtime ls
 > 5 minutes of play time available
 ```
 
-TODO: link is wrong
-_See code: [src/commands/add.ts](https://github.com/lhansford/playtime/blob/v0.0.1/src/commands/add.ts)_
+_See code: [src/commands/add.ts](https://github.com/lhansford/playtime/blob/main/src/commands/add.ts)_
 
 ## Configuration
 
