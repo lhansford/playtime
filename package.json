@@ -1,6 +1,8 @@
 {
   "name": "playtime",
-  "version": "0.0.2",
+  "version": "1.0.0",
+  "description": "A command line tool for earning and spending your leisure time. ",
+  "keywords": ["productivity", "time management", "cli", "command line", "command-line", "oclif"],
   "author": "Luke Hansford @lhansford",
   "bin": {
     "playtime": "./bin/run"
@@ -37,9 +39,6 @@
     "/oclif.manifest.json"
   ],
   "homepage": "https://github.com/lhansford/playtime",
-  "keywords": [
-    "oclif"
-  ],
   "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
