@@ -10,6 +10,8 @@ task (e.g. study Chinese for 30 minutes or work on the book for 2 hours) and con
 minutes you can use later to do something a little less "productive" (like playing computer games or
 binge watching that new series).
 
+![Adding play time example](example.gif)
+
 - [Playtime](#playtime)
   - [Usage](#usage)
   - [Commands](#commands)
