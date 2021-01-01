@@ -1,6 +1,6 @@
 {
   "name": "playtime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command line tool for earning and spending your leisure time. ",
   "keywords": ["productivity", "time management", "cli", "command line", "command-line", "oclif"],
   "author": "Luke Hansford @lhansford",

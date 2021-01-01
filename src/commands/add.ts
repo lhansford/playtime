@@ -24,7 +24,7 @@ async function addNewTimeSource(): Promise<ITimeSource> {
     {
       name: 'modifier',
       message:
-        'Set a modifier for the source (e.g. if the modifier is 0.1, then for every 60 minutes add for the time source you will receive 6 minutes of play time.',
+        'Set a modifier for the source (e.g. if the modifier is 0.1, then for every 60 minutes add for the time source you will receive 6 minutes of play time.):',
       type: 'number',
     },
   ]);
