@@ -20,6 +20,8 @@ binge watching that new series).
     - [Config Directory](#config-directory)
     - [Custom times / time modifiers](#custom-times--time-modifiers)
   - [Inspiration / Concept](#inspiration--concept)
+  - [Development](#development)
+    - [Releasing](#releasing)
 
 ## Usage
 
@@ -126,3 +128,13 @@ The objective then of `playtime` is to pit these two issues against each other i
 Do deep work, enter it into `playtime`, and it gets transformed into time you can use later for
 your leisure activities! It's still a somewhat arbitrary cap, but in the past I've found that systemising
 habits in this way makes me more likely to stick to them.
+
+## Development
+
+### Releasing
+
+Currently releasing is a manual process:
+
+- Create a release branch from `main`
+- Run `npm publish`
+- Merge the branch back into `main` (the only change should be the version number)
