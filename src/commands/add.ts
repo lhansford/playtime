@@ -37,7 +37,7 @@ function calculatePlaytime(time: ITime, timeSource: ITimeSource): number {
 }
 
 export default class Add extends Command {
-  static description = 'Add play time.';
+  static description = 'Add play time';
 
   static examples = [`$ playtime add`];
 

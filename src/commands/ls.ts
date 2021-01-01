@@ -5,7 +5,7 @@ import { pluraliseMinutes } from '../helpers/formatting';
 import { readDataFile } from '../helpers/io';
 
 export default class List extends Command {
-  static description = 'Lists the available amount of play time.';
+  static description = 'Lists the available amount of play time';
 
   static examples = [
     `$ playtime ls
