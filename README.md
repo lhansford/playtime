@@ -80,7 +80,7 @@ _See code: [src/commands/add.ts](https://github.com/lhansford/playtime/blob/main
 
 ### Config Directory
 
-The default config directory is `~/.playtime/`. You can set a custom directoy by adding the following
+The default config directory is `~/.playtime/`. You can set a custom directory by adding the following
 to your shell config:
 
 ```sh
@@ -89,7 +89,7 @@ PLAYTIME_DIR=/whatever/path/you/like
 
 ### Custom times / time modifiers
 
-By default the times available 25 minutes, 50 minutes (both inspired by the Pomodoro Technique), and
+By default the times available are 25 minutes, 50 minutes (both inspired by the Pomodoro Technique), and
 90 minutes (inspired by [Cal Newport's Deep Work](https://www.calnewport.com/books/deep-work/)). The
 90 minutes time has a modifier of 1.5 applied, so an extra 50% of play time is awarded.
 
@@ -119,17 +119,17 @@ my day job evolving into more of a management role, etc. - but the biggest diffi
 was that I rarely have a good trigger to start on deep work. When it comes down to the small, well-defined, surface
 level task vs the large, ill-defined deep work, the former tends to be the default option.
 
-The second issue, was much simpler - I'm really bad at regulating my leisure time! While it's not bad
+The second issue, was much simpler - I'm really bad at moderating my leisure time! While it's not bad
 enough to impact my relationships or work life, it does mean that when it comes to a choice between
-working on a cool side project or playing that new video game, the latter tends to win. I don't want
-to quit playing games, and I don't want to arbitrarily limit myself (I've tried this in the past and
-it usually falls apart when the holidays come around and I've got a whole day free to spend on that
-game no reason to cap it at 1 hour).
+working on a cool side project or playing that new video game, the latter tends to win. I didn't want
+to quit playing games, and I didn't want to arbitrarily limit myself (I've tried this in the past and
+it didn't stick), rather I wanted to find a way to bring some sort of balance to how I spend my time.
 
 The objective then of `playtime` is to pit these two issues against each other in the hope of solving both.
 Do deep work, enter it into `playtime`, and it gets transformed into time you can use later for
 your leisure activities! It's still a somewhat arbitrary cap, but in the past I've found that systemising
-habits in this way makes me more likely to stick to them.
+habits in this way makes me more likely to stick to them. I can't speak to it's efficiency just yet,
+but I'm hoping I can revisit this sentence in a few months and update it with a postive outcome!
 
 ## Development
 
