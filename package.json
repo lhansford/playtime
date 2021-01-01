@@ -51,6 +51,8 @@
   },
   "repository": "lhansford/playtime",
   "scripts": {
+    "lint": "node_modules/eslint/bin/eslint.js src --ext .js,.ts",
+    "lint:fix": "yarn lint --fix",
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
